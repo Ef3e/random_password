@@ -9,7 +9,6 @@ sifre_pencere.geometry("200x90+500+200")
 sifre_pencere.title("password")
 sifre_pencere.resizable(height=False,width=False)
 sifre_pencere.configure(background="#DD4441")
-sifre_pencere.iconbitmap("iconum.ico")
 
 sifre_olustur = tk.Entry(sifre_pencere,show="*",width=15,bg="white",fg="black",font="bold 12")
 sifre_olustur.place(x=30,y = 25)
