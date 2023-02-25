@@ -48,7 +48,6 @@ def giris_yap():
         window.title("password")
         window.resizable(height=False,width=False)
         window.configure(background="#DD4441")
-        window.iconbitmap("iconum.ico")
 
         uzunluk_label = tk.Label(window,text="sifre uzunlugu:",
                                 font="bold 14",bg ="#DD4441",fg = "black" )      
