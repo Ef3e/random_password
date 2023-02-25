@@ -207,14 +207,14 @@ def giris_yap():
         kopya = tk.Button(window,text="copy".upper(),width=8,command=kopyala,font="bold 10")
         kopya.place(x=147,y=80)
 
-        kaydet = tk.Button(window,width=8,height=1,text="kaydet".upper(),font="bold 10",command=veri_kaydet)
+        kaydet = tk.Button(window,width=8,height=1,text="save".upper(),font="bold 10",command=veri_kaydet)
         kaydet.place(x=80,y=120)
 
         sil = tk.Button(window,text="delete".upper(),command=sil_islem,font="bold 10",width=10)
         sil.place(x=230,y=260)
 
 
-        secilen_kopyala = tk.Button(window,text="sifreyi kopyala".upper(),command=secileni_kopyala,font="bold 10",width=15)
+        secilen_kopyala = tk.Button(window,text="copy password".upper(),command=secileni_kopyala,font="bold 10",width=15)
         secilen_kopyala.place(x=350,y=260)
         window.mainloop()
         
